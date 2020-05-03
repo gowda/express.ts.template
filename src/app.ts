@@ -7,6 +7,8 @@ import * as greetController from './controllers/greet';
 
 const app = express();
 
+app.use(express.static(path.join(__dirname, '../styles')));
+
 i18n.configure({
   locales: ['en', 'kn', 'de', 'fr'],
   cookie: '_lang',
