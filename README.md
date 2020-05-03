@@ -46,6 +46,8 @@ $ npm run start:dev
 $ npx ts-node src/server.ts
 ```
 
+Server listens at [http://localhost:8080](http://localhost:8080)
+
 ##### Production
 ```bash
 $ npm run start
@@ -54,6 +56,8 @@ $ npm run start
 $ npx tsc
 $ node dist/server.js
 ```
+
+Server listens at [http://localhost:8080](http://localhost:8080)
 
 ## License
 > "THE BEER-WARE LICENSE" (Revision 42):
